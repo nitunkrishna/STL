@@ -8,6 +8,8 @@ int main()
     cout << "Enter number of elements: ";
     cin >> n;
     vector<int>v; // Declaring the vector
+
+    // Taking input
     for(int i=0; i<n; i++)
     {
         int a; // Declaring a new variable a
@@ -15,7 +17,11 @@ int main()
         cin >> a; // Taking input to a
         v.push_back(a); // Push back to vector v
     }
+
+    // Printing initial size of vector v
     cout << "Size= " << v.size() << endl;
+
+    // Printing all the elements of vector v
     for(int i=0; i<n; i++)
         cout << "Element " << i+1 << " = " << v[i] << endl;
     return 0;
