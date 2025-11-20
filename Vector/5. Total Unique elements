@@ -1,0 +1,21 @@
+#include"bits/stdc++.h"
+
+using namespace std;
+
+int main()
+{
+    vector<int>v={5, 3, 7, 9, 1, 4, 8, 2, 5, 8, 9, 5};
+    
+    // First, we had to sort the vector
+    sort(v.begin(), v.end());
+
+    // Now use of unique function
+    int unique_elements=unique(v.begin(), v.end()) -v.begin();
+
+    cout << "Number of unique elements: " << unique_elements << endl;
+    for(int i=0; i<unique_elements; i++)
+        cout << v[i] << " ";
+    cout << endl;
+
+    return 0;
+}
