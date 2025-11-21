@@ -15,7 +15,7 @@ int main()
     sort(v1.begin(), v1.end());
     printres(v1);
     
-    // Sorting "NON-DECREASING ORDER" from index-0 to index-3
+    // Sorting "NON-DECREASING ORDER" from index-0 to index-4
     sort(v2.begin(), v2.begin()+3);
     printres(v2);
 
