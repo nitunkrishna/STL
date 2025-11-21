@@ -14,9 +14,9 @@ int main()
     reverse(v1.begin(), v1.end());
     printres(v1);
 
-    // Reversing from index-0 to index-4
+    // Reversing from index-0 to index-3
     //             Method-2
-    reverse(v2.begin(), v2.begin()+3);
+    reverse(v2.begin(), v2.begin()+4);
     printres(v2);
 
     return 0;
