@@ -1,0 +1,27 @@
+#include"bits/stdc++.h"
+
+using namespace std;
+
+int main()
+{
+    string str="nitun";
+    string str1=str;
+    string str2=str;
+    string str3=str;
+    string str4=str;
+
+    // To erase the first element
+    str1.erase(str1.begin());
+
+    str2.erase(str2.end());
+    // This won't change anything because there is '0' as the last element.
+
+    // To erase the last element
+    str3.erase(str3.end()-1);
+
+    // To erase the character at index-3
+    str4.erase(str4.begin()+2);
+    cout << "Main String: " << str << endl;
+    cout << str1 << endl << str2 << endl << str3 << endl << str4 << endl;
+    return 0;
+}
