@@ -1,0 +1,13 @@
+#include"bits/stdc++.h"
+
+using namespace std;
+
+int main()
+{
+    string str="nitun";
+    string temp=str;
+    reverse(temp.begin(), temp.end());
+    if(temp==str) cout << "PALINDROME" << endl;
+    else cout << "NOT PALINDROME" << endl;
+    return 0;
+}
