@@ -1,0 +1,13 @@
+#include"bits/stdc++.h"
+
+using namespace std;
+
+int main()
+{
+    set<int>s={5,3,5,2,3,5,1};
+    s.clear();
+    cout << s.empty() << endl;
+    return 0;
+}
+// s.empty is a boolean statement.
+// If s.empty = 1, then the Set is empty.
