@@ -8,6 +8,7 @@ int main()
     map<int,int>freq;
     for(int i:v)
         freq[i]++;
+    cout << "Number of Distinct elements: " << freq.size() << endl;
     for(auto i:freq)
     {
         if(i.second>0) cout << i.first << endl;
