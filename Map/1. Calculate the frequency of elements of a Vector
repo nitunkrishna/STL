@@ -1,0 +1,14 @@
+#include"bits/stdc++.h"
+
+using namespace std;
+
+int main()
+{
+    vector<int>v={5,3,5,2,3,5,1};
+    map<int,int>freq;
+    for(int i:v)
+        freq[i]++;
+    for(auto i:freq)
+        cout << i.first << " occurs " << i.second << " times" << endl;
+    return 0;
+}
