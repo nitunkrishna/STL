@@ -13,5 +13,6 @@ int main()
     s.insert(10);
     cout << "First Value: " << *s.begin() << endl;
     cout << "Last Value: " << *(--s.end()) << endl;
+    cout << "Last Value: " << *s.rbegin() << endl;
     return 0;
 }
